@@ -1,0 +1,100 @@
+body
+{
+    height: 75vh;
+    width: 100vw;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1200px 1200px 1200px;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+div:nth-child(1)
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(218, 250, 7);
+}
+div:nth-child(2)
+{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(218, 250, 7);
+}
+div:nth-child(3)
+{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: rgb(218, 250, 7);
+}
+div:nth-child(4)
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(218, 250, 7);
+}
+div:nth-child(5)
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgb(218, 250, 7);
+}
+div:nth-child(6)
+{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgb(218, 250, 7);
+}
+#detaylar1
+{
+    text-decoration: none;
+    background-color: blue;
+    color: azure;
+    font-size: 50px;
+    border-radius: 10px;
+    float: right;
+}
+#detaylar2
+{
+    text-decoration: none;
+    background-color: blue;
+    color: azure;
+    font-size: 50px;
+    border-radius: 10px;
+    float: right;
+}
+#detaylar3
+{
+    text-decoration: none;
+    background-color: blue;
+    color: azure;
+    font-size: 50px;
+    border-radius: 10px;
+    float: right;
+}
+#detaylar4
+{
+    text-decoration: none;
+    background-color: blue;
+    color: azure;
+    font-size: 50px;
+    border-radius: 10px;
+    float: right;
+}
+#detaylar5
+{
+    text-decoration: none;
+    background-color: blue;
+    color: azure;
+    font-size: 50px;
+    border-radius: 10px;
+    float: right;
+}
+#detaylar6
+{
+    text-decoration: none;
+    background-color: blue;
+    color: azure;
+    font-size: 50px;
+    border-radius: 10px;
+    float: right;
+}

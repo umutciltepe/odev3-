@@ -1,0 +1,41 @@
+body
+{
+    height: 75vh;
+    width: 100vw;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: rgb(207, 40, 6);
+}
+
+#araba1{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+}
+
+#araba2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#araba3{
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+#araba4{
+    grid-column:2/3 ;
+    grid-row:2/3 ;
+}
+
+#araba5{
+    grid-column: 4/5;
+    grid-row:2/3 ;
+}
+
+#araba6{
+    grid-column:6/7 ;
+    grid-row: 2/3;
+}
+
